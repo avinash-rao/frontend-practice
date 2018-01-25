@@ -1,0 +1,72 @@
+body {
+    background: url(../Images/bg.jpg)
+        no-repeat center center fixed;
+    
+/*    don't forget to add this line*/
+    background-size: cover;
+    
+}
+
+h1 {
+    font-family: 'Risque', cursive;      
+    font-size: 48px;
+}
+div {
+    text-align: center;
+/*    margin: 150px auto;*/
+    
+/*    to align the element at center*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255,0,101,.7);
+    color: black;
+/*    border: 3px solid black;*/
+    
+    
+/*    For paper-like cards*/
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+    
+/*    fix any element to right bottom*/
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    
+    
+    color: white;
+    padding: 5px 18px;
+    
+/*    apply transparency only to the background and not the child elements*/
+    background-color: rgba(0,101,255,.6); 
+    
+    font-family: 'VT323', monospace;
+    border-radius: 500px 50px;
+    font-size: 1.4em;
+/*    font-style: oblique;*/
+    
+}
+span {
+    font-family: 'Playfair Display', serif;
+    
+    font-size: 50px;
+    color: white;
+}
+
+img {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+/*    box-shadow: 2px 2px 5px brown, 2px 2px 5px brown, 2px 2px 5px brown, 2px 2px 5px brown;*/
+    
+}
