@@ -12,18 +12,40 @@ ul,li,a {
 
 .header {
     background: #7cf9e2;
+    overflow: hidden;
+    margin: 4px 20px;
+    border-radius: 15px;
 }
 
 .company-logo {
     float: left;
+    padding: 2px 40px;
+    background: black;
+    letter-spacing: 6px;
+    color: white;
+    border-radius: 15px;
+    
 }
 
 .right-header {
     float: right;
 }
 
-.right-header li {
+.right-header ul li{
     float: left;
-    padding: 10px 20px;
+    padding: 11px 20px;
+    font-style: italic;
+    
+}
+
+.right-header a{
+    padding: 20px;
+    border-radius: 15px;
+}
+
+a:hover {
+    background: red;
+    color: white;
+    font-style: normal;
     
 }
