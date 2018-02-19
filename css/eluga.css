@@ -1,0 +1,29 @@
+body,li,ul,ol,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul,li,a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.header {
+    background: #7cf9e2;
+}
+
+.company-logo {
+    float: left;
+}
+
+.right-header {
+    float: right;
+}
+
+.right-header li {
+    float: left;
+    padding: 10px 20px;
+    
+}
