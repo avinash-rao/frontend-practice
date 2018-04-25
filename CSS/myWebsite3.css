@@ -38,8 +38,29 @@ header {
     color: bisque;
 }
 
+.aside-left{
+    background: #E3E3E3;
+    float: left;
+    width: 18%;
+    margin-top: 15px;
+    border-radius: 5px;   
+}
+.aside-left h2{
+    margin-left: 25px
+}
+.aside-left li{
+    padding: 10px;
+    list-style-type: square;
+    font-size: 18px;
+}
+.aside-left li a{
+    text-decoration: none;
+    
+    color: black;
+}
+
 main{
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
     
 }
