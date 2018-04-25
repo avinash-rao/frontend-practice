@@ -1,0 +1,25 @@
+header {
+    width: auto;
+    height: 100px;
+    background: linear-gradient(red,white,yellow);
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+aside {
+    
+}
+
+main {
+    float: right;
+    
+}
+
+footer {
+    
+}
